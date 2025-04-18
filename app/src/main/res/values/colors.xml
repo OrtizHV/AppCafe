@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkblue">#0D52BD</color>
+    <color name="verde">#234F1E</color>
+    <color name="sky">#95CADB</color>
+    <color name="red">#800020</color>
+
+    <color name="cafe">#54582f</color>
+    <color name="BarCafe">#272b00</color>
+    <color name="Button">#86895d</color>
+    <color name="fontCafe">#f8fbca</color>
+    <color name="semifont">#bec092</color>
+
+    <color name="cafenew">#c08d60</color>
+    <color name="basecolor">#9a714d</color>
+    <color name="cafebase">#60c08d</color>
+
+
+</resources>

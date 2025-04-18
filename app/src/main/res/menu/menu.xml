@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/ic_main"
+        android:title="@string/main" />
+    <item
+        android:id="@+id/navigation_monitoreo"
+        android:icon="@drawable/ic_monitoreo"
+        android:title="@string/monitoreo" />
+
+    <item
+        android:id="@+id/navigation_manual"
+        android:icon="@drawable/ic_manual"
+        android:title="@string/manual" />
+
+    <item
+        android:id="@+id/navigation_automatico"
+        android:icon="@drawable/ic_automatico"
+        android:title="@string/automatico" />
+
+
+</menu>

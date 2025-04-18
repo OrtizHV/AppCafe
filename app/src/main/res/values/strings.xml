@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Secado de cafe</string>
+    <string name="title_activity_monitoreo">activityMonitoreo</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_menus">menus</string>
+    <string name="main">Inicio</string>
+    <string name="monitoreo">Monitoreo</string>
+    <string name="manual">Manual</string>
+    <string name="automatico">Automático</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="privacidad">Privacidad</string>
+    <string name="open_navigation_drawer">Open</string>
+    <string name="close_navigation_drawer">Close</string>
+    <string name="take_picture_value"></string>
+    <string-array name="opciones">
+        <item>Automático</item>
+        <item>Manual</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_opcion">opcion</string>
+
+</resources>

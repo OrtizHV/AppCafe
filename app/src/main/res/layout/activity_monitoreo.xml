@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:background="@color/fontCafe"
+    android:fitsSystemWindows="true">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tolbarMonitoreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/BarCafe"
+            app:title="@string/monitoreo"
+            app:titleTextColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/txtTemperatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperatura: -- °C"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="100dp"
+                android:paddingBottom="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/txtHumedad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humedad: -- %"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
